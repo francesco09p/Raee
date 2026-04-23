@@ -1,0 +1,207 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+.navbar{
+    background-color: rgb(27, 83, 4);
+    padding: 20px;
+    font-size: 20px;
+    position: sticky; top: 0;
+    z-index: 10000000;
+}
+
+.navbar ul{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.destra{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none; 
+}
+
+.navbar li{
+ margin-right: 20px;
+}
+
+
+  @font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/Mulish-VariableFont_wght.ttf);
+}
+
+
+.allineamento{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.allineamento2{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    text-decoration: none;
+}
+
+
+
+.hero{
+    background-image: url("img/bgh.jpg");
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+#home2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#t_home{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.pulsanti{
+    font-size: 35px;
+    text-decoration: none;
+    border: solid white 3px;
+    margin-bottom: 10px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.art1{
+    background-image: url("img/Art1.jpg");
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-size: cover;
+    width: 550px;
+    height: 605px;
+    text-decoration: none;
+
+    
+}
+
+.testi_home{
+    color:  white;
+    font-size: 35px;
+    margin: 10px;
+    margin-top: 95%;
+    text-decoration: none;
+}
+
+.testi_home2{
+    color:  white;
+    font-size: 35px;
+    margin: 10px;
+    margin-top: 35%;
+    text-decoration: none;
+}
+
+.art2{
+    background-image: url("img/Art2.pNg");
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+    text-decoration: none;
+
+}
+
+.art3{
+    background-image: url("img/Art3.jpg");
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+    text-decoration: none;
+}
+
+.testi_home3{
+    color: rgb(44, 43, 43);
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+.img_home{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.titoli_home{
+    font-size: 25px;
+    color: black;
+    margin-top:10px;
+    min-height: 60px;
+    text-decoration: none;
+}
+
+.titoli_art{
+    white-space: pre-line;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.testo_art{
+    white-space: pre-line;
+    font-size: 20px;
+    color: rgb(44, 43, 43);
+    max-width: 700px;
+}
+
+.img{
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 170px;
+}
+
+#articoli{
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.centro{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
