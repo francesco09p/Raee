@@ -128,7 +128,7 @@ body{
 }
 
 .art2{
-    background-image: url("img/Art2.pNg");
+    background-image: url("img/Art2.png");
     display: flex;
     justify-content: left;
     align-items: left;
