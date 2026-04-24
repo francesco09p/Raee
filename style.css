@@ -48,22 +48,33 @@ body{
 .allineamento{
     display: flex;
     gap: 10px;
-    justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
     text-decoration: none;
+    justify-content: center;
 }
 
 .allineamento2{
-    display: flex;
+display: flex;
     gap: 5px;
     flex-direction: column;
     justify-content: center;
-    width: 360px;
+    width: 550px; 
     text-decoration: none;
+    
 }
 
+.art1, .art2, .art3 {
+    width: 100% ;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    display: flex;
+    }
 
+.art1 { height: 605px; }
+.art2 { height: 300px; }
+.art3 { height: 300px; }
 
 .hero{
     background-image: url("img/bgh.jpg");
@@ -128,7 +139,7 @@ body{
 }
 
 .art2{
-    background-image: url("img/Art2.png");
+    background-image: url("img/Art2.pNg");
     display: flex;
     justify-content: left;
     align-items: left;
